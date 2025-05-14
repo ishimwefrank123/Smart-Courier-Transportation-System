@@ -1,35 +1,166 @@
-h1{
-    color: red;
-}
-.div1Class{
-    display: flex;
-    align-items: center;
-    gap: 4;
-}
-.mainClass{
-    padding: 8px  4px;
-    
-}
-body{
-    background-color: #F1F5F9;
-     color: #1E293B;
-}
-header{
-    background-color: #1E40AF; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.div1Class{
-    display: flex; 
+header nav {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-     gap: 1rem;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
 }
-a{
-    color: inherit;
-     text-decoration: none;
+
+.nav-link {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+    
 }
-main{
-    padding: 2rem 1rem; 
-    margin: auto; 
-    max-width: 1024px;
+.site-header .navbar .nav-links{
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.hero {
+    background: #f0fff4;
+    padding: 4rem 2rem;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background: #00c896;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.feature-box {
+    padding: 1rem 2rem;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+}
+
+.services {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f9f9f9;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-align: left;
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    border: 1px solid #00c896;
+    background: none;
+    color: #00c896;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.testimonials {
+    background: #e0fff4;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: auto;
+    font-style: italic;
+}
+
+.download-app {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.store-icons img {
+    width: 150px;
+    margin: 0 1rem;
+}
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.footer-content h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-content a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+.copyright {
+    font-size: 0.9rem;
 }

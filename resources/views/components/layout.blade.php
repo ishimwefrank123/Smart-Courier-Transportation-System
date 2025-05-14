@@ -18,10 +18,18 @@
     <header class="site-header">
         <nav class="navbar">
             <div class="logo">
-                <a href="{{ route('posts.index') }}" class="brand-name">{{ env('APP_NAME') }}</a>
+             <a href="{{ route('posts.index') }}" class="brand-name">{{ env('APP_NAME') }}</a>
             </div>
 
-            <ul class="nav-links">
+            <ul class="nav-links"
+            style="
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                gap: 2rem;
+            ">
                 <li><a href="{{ route('posts.index') }}" class="nav-link">Home</a></li>
                 <li><a href="#" class="nav-link">Track Order</a></li>
                 <li><a href="#" class="nav-link">Price</a></li>
