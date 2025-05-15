@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Michel.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ env('APP_NAME') }}</title>
@@ -17,8 +18,15 @@
     <!-- Header / Navigation -->
     <header class="site-header">
         <nav class="navbar">
-            <div class="logo">
-             <a href="{{ route('posts.index') }}" class="brand-name">{{ env('APP_NAME') }}</a>
+            <div class="logo" style="display: flex; align-items: center; gap: 1rem;">
+                <div>
+                    <img src="Michel.png" alt="" style="width: 70px; height: 60px;">
+                </div>
+             <div>
+                  <a href="{{ route('posts.index') }}" class="brand-name">{{ env('APP_NAME') }}</a>
+             </div>
+           
+             
             </div>
 
             <ul class="nav-links"
